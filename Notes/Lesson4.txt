@@ -1,0 +1,38 @@
+Conectando a sanity io 
+
+Sanity es una plataforma para estructurar contenido
+
+Se va a utilizar esta plataforma para manipular la data del ecommerce
+
+instalo sanity:
+
+npm install -g @sanity/cli
+
+luego inicializo:
+
+sanity init --coupon codingwithbasir
+
+al inicializar me va a pedir inicial sesion con google o github (escoger google)
+
+nombre del proyecto
+path del proyecto yes
+(alegir clean schema)
+
+esperar a que instale las dependencias
+
+voy hacia la ruta:
+
+cd C:\Users\usuario\Desktop\nextjs-curso\ecommerce-nextjs\sanity-
+amazona
+
+inicializo:
+
+sanity start
+
+voy al localhost y me logueo de nuevo
+
+- Creo el schema dentro de la carpeta schemas de sanity-amazona
+
+la estructura del schema es parecida a las de mongodb 
+
+agrego data desde sanity despues de crear el schema 

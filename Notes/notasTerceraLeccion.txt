@@ -1,0 +1,12 @@
+ Layout:
+
+ -Se creo el layout de toda la pagina el cual tiene a su vez el tema principal
+ - este tema principal envuelve el componente completo en un themeProvider
+
+ Classes:
+
+ - Para poder realizar clases personalizadas de cada componente se creo una carpeta 'utils' 
+ - la cual tiene el archivo de clases que se importara en cada componente que quiera utilizar
+ - de momento se importaron las classes en el componente layout el cual tiene el appbar, main y footer de momento
+ 
+

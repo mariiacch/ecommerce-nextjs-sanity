@@ -1,0 +1,14 @@
+Publicacion en github
+
+- iniciar sesion en github
+- atajo : ctrl + shift + p 
+-luego escribir publish to github 
+- escribir el nombre del repo y dar permisos para que automaticamente se suba a github
+
+- luego importar el codigo con los siguientes comandos:
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mariiacch/ecommerce-nextjs-sanity.git
+git push -u origin main

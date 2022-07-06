@@ -1,0 +1,28 @@
+Primeros pasos:
+
+Se instalaron las siguientes dependencias de material:
+"@emotion/react": "^11.9.3",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.7",
+    "@mui/styles": "^5.8.7",
+ 
+     npm install  @mui/styles @mui/icons-material @emotion/styled @emotion/server
+
+     Inicio el server con npm run dev
+
+Configuracion del _document.js:
+
+Se realiza la configuracion en _document.js
+
+Es un archivo configurable que se utiliza para aumentar el html
+
+_app.js:
+
+-Se debe envolver la app en un CacheProvider con su respectivo valor de cache 
+
+- import { CacheProvider } from "@emotion/react";
+
+const clientSideEmotionCache = createCache({ key: "css" });
+

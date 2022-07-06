@@ -1,0 +1,6 @@
+Publicacion en github
+
+- iniciar sesion en github
+- atajo : ctrl + shift + p 
+-luego escribir publish to github 
+- escribir el nombre del repo y dar permisos para que automaticamente se suba a github

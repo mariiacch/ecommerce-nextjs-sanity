@@ -69,7 +69,7 @@ export default function Layout({ title, description, children }) {
         <Container sx={classes.main} component="main">
           {children}
         </Container>
-        <Box component="footer">
+        <Box sx={classes.footer} component="footer">
           <Typography> All rights reserved. Sanity Amazona</Typography>
         </Box>
       </ThemeProvider>

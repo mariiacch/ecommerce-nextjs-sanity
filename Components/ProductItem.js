@@ -5,6 +5,7 @@ import {
   CardActions,
   CardContent,
   CardMedia,
+  Rating,
   Typography,
 } from "@mui/material";
 import React from "react";
@@ -24,7 +25,8 @@ export default function ProductItem({ product }) {
           <CardContent>
             <Typography>{product.name}</Typography>
             <Typography>
-              {product.rating} ({product.numReviews} reviews )
+              <Rating value={product.rating} readOnly></Rating> (
+              {product.numReviews} reviews )
             </Typography>
           </CardContent>
         </CardActionArea>
